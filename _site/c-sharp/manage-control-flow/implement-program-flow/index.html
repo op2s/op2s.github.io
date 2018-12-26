@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Implement program flow - OP2S</title>
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/just-the-docs.css">
+  
+  <script type="text/javascript" src="http://localhost:4000/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="http://localhost:4000/assets/js/just-the-docs.js"></script>
+  <script src="http://localhost:4000/assets/js/mermaid.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+  <div class="page-wrap">
+    <div class="side-bar">
+      <a href="http://localhost:4000" class="site-title fs-6 lh-tight">OP2S</a>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+      <div class="navigation main-nav js-main-nav">
+        <nav>
+  <ul class="navigation-list">
+    
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/404.html" class="navigation-list-link"></a>
+            
+          </li>
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/" class="navigation-list-link">Home</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/about/" class="navigation-list-link">About</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="http://localhost:4000/c-sharp/" class="navigation-list-link">Exam 70-483</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item  active">
+                      
+                      <a href="http://localhost:4000/c-sharp/manage-control-flow/" class="navigation-list-link">Manage Control Flow</a>
+                      
+                        
+                        <ul class="navigation-list-child-list">
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/manage-control-flow/implement-multithreading-and-asynchronous-processing/" class="navigation-list-link">Implement multithreading and asynchronous processing</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/manage-control-flow/manage-multithreading/" class="navigation-list-link">Manage multithreading</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item  active">
+                                <a href="http://localhost:4000/c-sharp/manage-control-flow/implement-program-flow/" class="navigation-list-link active">Implement program flow</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/manage-control-flow/create-and-implement-events-and-callbacks/" class="navigation-list-link">Create and implement events and callbacks</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/manage-control-flow/implement-exception-handling/" class="navigation-list-link">Implement exception handling</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                        </ul>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/c-sharp/create-and-use-types/" class="navigation-list-link">Create and Use Types</a>
+                      
+                        
+                        <ul class="navigation-list-child-list">
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/create-and-use-types/create-types/" class="navigation-list-link">Create types</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/create-and-use-types/consume-types/" class="navigation-list-link">Consume types</a>
+                              </li>
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/create-and-use-types/enforce-encapsulation/" class="navigation-list-link">Enforce encapsulation</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/create-and-use-types/create-and-implement-a-class-hierarchy/" class="navigation-list-link">Create and implement a class hierarchy</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/create-and-use-types/find-execute-and-create-types-at-runtime-by-using-reflection/" class="navigation-list-link">Find, execute and create types at runtime by using reflection</a>
+                              </li>
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/create-and-use-types/manage-the-object-lifecycle/" class="navigation-list-link">Manage the object lifecycle</a>
+                              </li>
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/create-and-use-types/manipulate-strings/" class="navigation-list-link">Manipulate strings</a>
+                              </li>
+                            
+                          
+                        </ul>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/c-sharp/debug-applications-and-implement-security/" class="navigation-list-link">Debug Applications and Implement Security</a>
+                      
+                        
+                        <ul class="navigation-list-child-list">
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/debug-applications-and-implement-security/validate-application-data/" class="navigation-list-link">Validate application data</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/debug-applications-and-implement-security/perform-symmetric-and-asymmetric-encryption/" class="navigation-list-link">Perform symmetric and asymmetric encryption</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/debug-applications-and-implement-security/manage-assemblies/" class="navigation-list-link">Manage assemblies</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/debug-applications-and-implement-security/debug-an-application/" class="navigation-list-link">Debug an application</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/debug-applications-and-implement-security/implement-diagnostics-in-an%20application/" class="navigation-list-link">Implement diagnostics in an application</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                        </ul>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/c-sharp/implement-data-access/" class="navigation-list-link">Implement Data Access</a>
+                      
+                        
+                        <ul class="navigation-list-child-list">
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/implement-data-access/perform-io-operations/" class="navigation-list-link">Perform I/O operations</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/implement-data-access/consume-data/" class="navigation-list-link">Consume data</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/implement-data-access/query-and-manipulate-data-and-objects-by-using-LINQ/" class="navigation-list-link">Query and manipulate data and objects by using LINQ</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/implement-data-access/serialise-and-deserialise-data/" class="navigation-list-link">Serialise and deserialise data</a>
+                              </li>
+                            
+                          
+                            
+                              <li class="navigation-list-item ">
+                                <a href="http://localhost:4000/c-sharp/implement-data-access/store-data-in-and-retrieve-data-from-collections/" class="navigation-list-link">Store data in and retrieve data from collections</a>
+                              </li>
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                            
+                          
+                        </ul>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  </ul>
+</nav>
+
+      </div>
+      <footer role="contentinfo" class="site-footer">
+        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+      </footer>
+    </div>
+    <div class="main-content-wrap">
+      <div class="page-header">
+        <div class="main-content">
+          
+          <div class="search js-search">
+            <div class="search-input-wrap">
+              <input type="text" class="js-search-input search-input" placeholder="Search OP2S" aria-label="Search OP2S" autocomplete="off">
+              <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
+            </div>
+            <div class="js-search-results search-results-wrap"></div>
+          </div>
+          
+          
+        </div>
+      </div>
+      <div class="main-content">
+        
+          
+            <nav class="breadcrumb-nav">
+              <ol class="breadcrumb-nav-list">
+                
+                  <li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/c-sharp/">Exam 70-483</a></li>
+                  <li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/c-sharp/manage-control-flow/">Manage Control Flow</a></li>
+                
+                <li class="breadcrumb-nav-list-item"><span>Implement program flow</span></li>
+              </ol>
+            </nav>
+          
+        
+        <div class="page-content">
+          <p><a href="https://msdn.microsoft.com/en-us/library/06tc147t.aspx">switch (C# Reference)</a></p>
+
+<p><a href="https://msdn.microsoft.com/en-us/library/5011f09h.aspx">if/else</a></p>
+
+<p><a href="https://msdn.microsoft.com/en-us/library/aa287603%28v=vs.71%29.aspx">Code: Iterating Through a Collection (Visual C#)</a></p>
+
+<p><a href="https://msdn.microsoft.com/en-us/library/system.array.length%28v=vs.110%29.aspx">Array.Length Property</a></p>
+
+
+          
+          <hr>
+          <h2 class="text-delta">Table of contents</h2>
+          
+          <ul>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</html>

@@ -1,0 +1,212 @@
+{
+  "0": {
+    "id": "0",
+    "title": "",
+    "content": "  404  Page not found :(  The requested page could not be found.",
+    "url": "http://localhost:4000/404.html",
+    "relUrl": "/404.html"
+  },
+  "1": {
+    "id": "1",
+    "title": "About",
+    "content": "",
+    "url": "http://localhost:4000/about/",
+    "relUrl": "/about/"
+  },
+  "2": {
+    "id": "2",
+    "title": "Consume data",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/implement-data-access/consume-data/",
+    "relUrl": "/c-sharp/implement-data-access/consume-data/"
+  },
+  "3": {
+    "id": "3",
+    "title": "Consume types",
+    "content": "How to: Convert a String to a Number (C# Programming Guide)Casting and Type Conversions (C# Programming Guide)",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/consume-types/",
+    "relUrl": "/c-sharp/create-and-use-types/consume-types/"
+  },
+  "4": {
+    "id": "4",
+    "title": "Create and implement a class hierarchy",
+    "content": "Polymorphism (C# Programming Guide)",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/create-and-implement-a-class-hierarchy/",
+    "relUrl": "/c-sharp/create-and-use-types/create-and-implement-a-class-hierarchy/"
+  },
+  "5": {
+    "id": "5",
+    "title": "Create and implement events and callbacks",
+    "content": "How to: Publish Events that Conform to .NET Framework Guidelines (C# Programming Guide)",
+    "url": "http://localhost:4000/c-sharp/manage-control-flow/create-and-implement-events-and-callbacks/",
+    "relUrl": "/c-sharp/manage-control-flow/create-and-implement-events-and-callbacks/"
+  },
+  "6": {
+    "id": "6",
+    "title": "Create types",
+    "content": "enum (C# Reference)Named and Optional Arguments (C# Programming Guide)",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/create-types/",
+    "relUrl": "/c-sharp/create-and-use-types/create-types/"
+  },
+  "7": {
+    "id": "7",
+    "title": "Debug an application",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/debug-an-application/",
+    "relUrl": "/c-sharp/debug-applications-and-implement-security/debug-an-application/"
+  },
+  "8": {
+    "id": "8",
+    "title": "Enforce encapsulation",
+    "content": "override (C# Reference)virtual (C# Reference)abstract (C# Reference)sealed (C# Reference)internal (C# Reference)private (C# Reference)protected (C# Reference)public (C# Reference)Properties (C# Programming Guide)Using Properties (C# Programming Guide)Interface Properties (C# Programming Guide)",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/enforce-encapsulation/",
+    "relUrl": "/c-sharp/create-and-use-types/enforce-encapsulation/"
+  },
+  "9": {
+    "id": "9",
+    "title": "Find, execute and create types at runtime by using reflection",
+    "content": "Creating Custom Attributes (C# and Visual Basic)",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/find-execute-and-create-types-at-runtime-by-using-reflection/",
+    "relUrl": "/c-sharp/create-and-use-types/find-execute-and-create-types-at-runtime-by-using-reflection/"
+  },
+  "10": {
+    "id": "10",
+    "title": "Implement diagnostics in an application",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/implement-diagnostics-in-an%20application/",
+    "relUrl": "/c-sharp/debug-applications-and-implement-security/implement-diagnostics-in-an application/"
+  },
+  "11": {
+    "id": "11",
+    "title": "Implement exception handling",
+    "content": "try-catch-finally (C# Reference)‘throw e;’ vs. ‘throw;’",
+    "url": "http://localhost:4000/c-sharp/manage-control-flow/implement-exception-handling/",
+    "relUrl": "/c-sharp/manage-control-flow/implement-exception-handling/"
+  },
+  "12": {
+    "id": "12",
+    "title": "Implement multithreading and asynchronous processing",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/manage-control-flow/implement-multithreading-and-asynchronous-processing/",
+    "relUrl": "/c-sharp/manage-control-flow/implement-multithreading-and-asynchronous-processing/"
+  },
+  "13": {
+    "id": "13",
+    "title": "Implement program flow",
+    "content": "switch (C# Reference)if/elseCode: Iterating Through a Collection (Visual C#)Array.Length Property",
+    "url": "http://localhost:4000/c-sharp/manage-control-flow/implement-program-flow/",
+    "relUrl": "/c-sharp/manage-control-flow/implement-program-flow/"
+  },
+  "14": {
+    "id": "14",
+    "title": "Create and Use Types",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/",
+    "relUrl": "/c-sharp/create-and-use-types/"
+  },
+  "15": {
+    "id": "15",
+    "title": "Debug Applications and Implement Security",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/",
+    "relUrl": "/c-sharp/debug-applications-and-implement-security/"
+  },
+  "16": {
+    "id": "16",
+    "title": "Implement Data Access",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/implement-data-access/",
+    "relUrl": "/c-sharp/implement-data-access/"
+  },
+  "17": {
+    "id": "17",
+    "title": "Home",
+    "content": "home page",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },
+  "18": {
+    "id": "18",
+    "title": "Manage Control Flow",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/manage-control-flow/",
+    "relUrl": "/c-sharp/manage-control-flow/"
+  },
+  "19": {
+    "id": "19",
+    "title": "Exam 70-483",
+    "content": "Exam 70-483: Programming in C#",
+    "url": "http://localhost:4000/c-sharp/",
+    "relUrl": "/c-sharp/"
+  },
+  "20": {
+    "id": "20",
+    "title": "Manage assemblies",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/manage-assemblies/",
+    "relUrl": "/c-sharp/debug-applications-and-implement-security/manage-assemblies/"
+  },
+  "21": {
+    "id": "21",
+    "title": "Manage multithreading",
+    "content": "Thread Synchronization (C# and Visual Basic)WaitHandle Class",
+    "url": "http://localhost:4000/c-sharp/manage-control-flow/manage-multithreading/",
+    "relUrl": "/c-sharp/manage-control-flow/manage-multithreading/"
+  },
+  "22": {
+    "id": "22",
+    "title": "Manage the object lifecycle",
+    "content": "Cleaning Up Unmanaged ResourcesDispose PatternSafeHandle class",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/manage-the-object-lifecycle/",
+    "relUrl": "/c-sharp/create-and-use-types/manage-the-object-lifecycle/"
+  },
+  "23": {
+    "id": "23",
+    "title": "Manipulate strings",
+    "content": "StringBuilder classString ClassString.Contains Method (String)String.IndexOf Method (String)String.Insert Method (Int32, String)String.Remove Method (Int32,?Int32)",
+    "url": "http://localhost:4000/c-sharp/create-and-use-types/manipulate-strings/",
+    "relUrl": "/c-sharp/create-and-use-types/manipulate-strings/"
+  },
+  "24": {
+    "id": "24",
+    "title": "Perform I/O operations",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/implement-data-access/perform-io-operations/",
+    "relUrl": "/c-sharp/implement-data-access/perform-io-operations/"
+  },
+  "25": {
+    "id": "25",
+    "title": "Perform symmetric and asymmetric encryption",
+    "content": "How to: Create Temporary Certificates for Use During DevelopmentWorking with Certificates",
+    "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/perform-symmetric-and-asymmetric-encryption/",
+    "relUrl": "/c-sharp/debug-applications-and-implement-security/perform-symmetric-and-asymmetric-encryption/"
+  },
+  "26": {
+    "id": "26",
+    "title": "Query and manipulate data and objects by using LINQ",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/implement-data-access/query-and-manipulate-data-and-objects-by-using-LINQ/",
+    "relUrl": "/c-sharp/implement-data-access/query-and-manipulate-data-and-objects-by-using-LINQ/"
+  },
+  "27": {
+    "id": "27",
+    "title": "Serialise and deserialise data",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/implement-data-access/serialise-and-deserialise-data/",
+    "relUrl": "/c-sharp/implement-data-access/serialise-and-deserialise-data/"
+  },
+  "28": {
+    "id": "28",
+    "title": "Store data in and retrieve data from collections",
+    "content": "",
+    "url": "http://localhost:4000/c-sharp/implement-data-access/store-data-in-and-retrieve-data-from-collections/",
+    "relUrl": "/c-sharp/implement-data-access/store-data-in-and-retrieve-data-from-collections/"
+  },
+  "29": {
+    "id": "29",
+    "title": "Validate application data",
+    "content": "Regex.Match Method (String)Regular Expression Language - Quick ReferenceRegexOptions.IgnoreCase Enumeration",
+    "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/validate-application-data/",
+    "relUrl": "/c-sharp/debug-applications-and-implement-security/validate-application-data/"
+  }
+}
