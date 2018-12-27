@@ -44,7 +44,7 @@
   "6": {
     "id": "6",
     "title": "Create types",
-    "content": "enum (C# Reference)Named and Optional Arguments (C# Programming Guide)",
+    "content": "enum (C# Reference)Named and Optional Arguments (C# Programming Guide)Enumeration Types (C# Programming Guide)Using Constructors (C# Programming Guide)Structs (C# Programming Guide)IQueryable InterfaceIndexers (C# Programming Guide)Partial Classes and Methods (C# Programming Guide)protected (C# Reference)new Modifier (C# Reference)virtual (C# Reference)C# 5.0 in a NutshellChapter 3Classes, Structs,",
     "url": "http://localhost:4000/c-sharp/create-and-use-types/create-types/",
     "relUrl": "/c-sharp/create-and-use-types/create-types/"
   },
