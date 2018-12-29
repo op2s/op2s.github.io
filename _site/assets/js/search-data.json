@@ -51,7 +51,7 @@
   "7": {
     "id": "7",
     "title": "Debug an application",
-    "content": "",
+    "content": "Specify Symbol (.pdb) and Source Files in the Visual Studio DebuggerJust-In-Time Debugging in Visual StudioOutput Window, Debugging, Options Dialog BoxGeneral, Debugging, Options Dialog BoxIntroducing Spy++Messages ViewThreads ViewGeneral Tab, Thread Properties Dialog BoxUsing DebuggerDisplay AttributeBreakpoints: Use Hit Counts, Call Stack Functions, and Conditions to Break When and Where You Want in the Visual Studio DebuggerHow to:Specify a Breakpoint ConditionHow to: Specify a Breakpoint FilterHow to: Edit a Breakpoint LocationAssertions in Managed Code",
     "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/debug-an-application/",
     "relUrl": "/c-sharp/debug-applications-and-implement-security/debug-an-application/"
   },
@@ -72,7 +72,7 @@
   "10": {
     "id": "10",
     "title": "Implement diagnostics in an application",
-    "content": "",
+    "content": "CounterSample StructurePerformance Counter classPerformanceCounterType EnumerationTrace SwitchesSwitch ClassEventLog.CreateEventSource Method (String, String)EventLog ClassPerformanceCounter ClassBeginners Guide to Performance Profiling",
     "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/implement-diagnostics-in-an%20application/",
     "relUrl": "/c-sharp/debug-applications-and-implement-security/implement-diagnostics-in-an application/"
   },
@@ -142,7 +142,7 @@
   "20": {
     "id": "20",
     "title": "Manage assemblies",
-    "content": "",
+    "content": "Using Windows 8 WinRT APIs in .NET Desktop ApplicationsHow to call WinRT APIs from .NET desktop appsWindows.Globalization namespaceWindows API reference for Windows Runtime appsAssemblies and the Global Assembly Cache (C# and Visual Basic)How to: Install an Assembly into the Global Assembly Cache.NET Framework ToolsAssembly VersioningRedirecting Assembly VersionsIn-Process Side-by-Side ExecutionRedirecting Assembly VersionsHow to: Target a Version of the .NET FrameworkStrong-Named Assemblies",
     "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/manage-assemblies/",
     "relUrl": "/c-sharp/debug-applications-and-implement-security/manage-assemblies/"
   },
@@ -177,7 +177,7 @@
   "25": {
     "id": "25",
     "title": "Perform symmetric and asymmetric encryption",
-    "content": "How to: Create Temporary Certificates for Use During DevelopmentWorking with Certificates",
+    "content": "How to: Create Temporary Certificates for Use During DevelopmentWorking with CertificatesCryptographic ServicesDecrypting DataEncrypting and Decrypting DataProtectedData ClassHow to: Use Data ProtectionAppDomain.SetPrincipalPolicy MethodHow to: Restrict Access with the PrincipalPermissionAttribute Class",
     "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/perform-symmetric-and-asymmetric-encryption/",
     "relUrl": "/c-sharp/debug-applications-and-implement-security/perform-symmetric-and-asymmetric-encryption/"
   },
@@ -205,7 +205,7 @@
   "29": {
     "id": "29",
     "title": "Validate application data",
-    "content": "Regex.Match Method (String)Regular Expression Language - Quick ReferenceRegexOptions.IgnoreCase Enumeration",
+    "content": "Regex.Match Method (String)Regular Expression Language - Quick ReferenceRegexOptions.IgnoreCase EnumerationAn Introduction to JavaScript Object Notation (JSON) in JavaScript and .NETJavaScriptSerializer ClassC# Keywordsis (C# Reference)C# Operators|| Operator (C# Reference)typeof (C# Reference)Cryptographic ServicesCryptographic SignaturesGenerics (C# Programming Guide)where (generic type constraint) (C# Reference)Constraints on Type Parameters (C# Programming Guide)",
     "url": "http://localhost:4000/c-sharp/debug-applications-and-implement-security/validate-application-data/",
     "relUrl": "/c-sharp/debug-applications-and-implement-security/validate-application-data/"
   }
