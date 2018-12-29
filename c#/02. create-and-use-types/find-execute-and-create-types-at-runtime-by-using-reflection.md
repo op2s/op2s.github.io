@@ -8,23 +8,23 @@ permalink: /c-sharp/create-and-use-types/find-execute-and-create-types-at-runtim
 nav_order: 5
 ---
 
-[Creating Custom Attributes (C# and Visual Basic)](https://msdn.microsoft.com/en-us/library/sw480ze8.aspx)
+[Creating Custom Attributes (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/creating-custom-attributes){:target="_blank"}
 
-[AttributeTargets Enumeration](https://msdn.microsoft.com/en-us/library/system.attributetargets)
+[AttributeTargets Enumeration](https://msdn.microsoft.com/en-us/library/system.attributetargets){:target="_blank"}
 
-[Writing Custom Attributes](http://msdn.microsoft.com/en-us/library/84c42s56.aspx)
+[Writing Custom Attributes](http://msdn.microsoft.com/en-us/library/84c42s56.aspx){:target="_blank"}
 
-[Using the CodeDOM](http://msdn.microsoft.com/en-us/library/y2k85ax6.aspx)
+[Using the CodeDOM](http://msdn.microsoft.com/en-us/library/y2k85ax6.aspx){:target="_blank"}
 
-[Dynamic Source Code Generation and Compilation](http://msdn.microsoft.com/en-us/library/650ax5cx.aspx)
+[Dynamic Source Code Generation and Compilation](http://msdn.microsoft.com/en-us/library/650ax5cx.aspx){:target="_blank"}
 
-[Using Reflection Emit](https://msdn.microsoft.com/library/3y322t50(v=vs.100).aspx)
+[Using Reflection Emit](https://msdn.microsoft.com/library/3y322t50(v=vs.100).aspx){:target="_blank"}
 
-[Expression Trees (C# and Visual Basic)](http://msdn.microsoft.com/en-us/library/bb397951.aspx)
+[Expression Trees (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/index){:target="_blank"}
 
-[Assembly.LoadFrom Method (String)](http://msdn.microsoft.com/en-us/library/1009fa28.aspx)
+[Assembly.LoadFrom Method (String)](http://msdn.microsoft.com/en-us/library/1009fa28.aspx){:target="_blank"}
 
-[Assembly Class](http://msdn.microsoft.com/en-us/library/xbe1wdx9.aspx)
+[Assembly Class](http://msdn.microsoft.com/en-us/library/xbe1wdx9.aspx){:target="_blank"}
 
 C# 5.0 in a Nutshell
 
