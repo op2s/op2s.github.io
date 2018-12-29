@@ -65,7 +65,7 @@
   "9": {
     "id": "9",
     "title": "Find, execute and create types at runtime by using reflection",
-    "content": "Creating Custom Attributes (C# and Visual Basic)",
+    "content": "Creating Custom Attributes (C# and Visual Basic)AttributeTargets EnumerationWriting Custom AttributesUsing the CodeDOMDynamic Source Code Generation and CompilationUsing Reflection EmitExpression Trees (C# and Visual Basic)Assembly.LoadFrom Method (String)Assembly ClassC# 5.0 in a NutshellWorking with AttributesChapter 19Resolving and Loading AssembliesChapter 18",
     "url": "http://localhost:4000/c-sharp/create-and-use-types/find-execute-and-create-types-at-runtime-by-using-reflection/",
     "relUrl": "/c-sharp/create-and-use-types/find-execute-and-create-types-at-runtime-by-using-reflection/"
   },
